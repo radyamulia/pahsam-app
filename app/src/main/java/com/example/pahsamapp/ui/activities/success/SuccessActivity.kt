@@ -1,5 +1,6 @@
 package com.example.pahsamapp.ui.activities.success
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -52,7 +53,7 @@ class SuccessActivity : ComponentActivity() {
 
 @Composable
 fun SuccessScreen(modifier: Modifier = Modifier) {
-    val mContext = LocalContext.current
+    val activity = LocalContext.current as Activity
 
     Box(
         modifier = Modifier
@@ -83,8 +84,8 @@ fun SuccessScreen(modifier: Modifier = Modifier) {
                 .fillMaxWidth()
                 .align(Alignment.BottomEnd)
                 .clickable {
-                    val intent = Intent(mContext, MainActivity::class.java)
-                    mContext.startActivity(intent)
+                    val intent = Intent(activity, MainActivity::class.java)
+                    activity.startActivity(intent)
                 },
             verticalAlignment = Alignment.Bottom,
             horizontalArrangement = Arrangement.Center
