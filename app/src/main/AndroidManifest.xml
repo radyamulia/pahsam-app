@@ -26,5 +26,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.activities.splash.SplashScreenActivity"
+            android:exported="false"
+            android:label="Pahsam App"
+            android:theme="@style/Theme.PahsamApp" />
+        <activity
+            android:name=".ui.activities.success.SuccessActivity"
+            android:exported="false"
+            android:label="Pahsam App"
+            android:theme="@style/Theme.PahsamApp" />
     </application>
 </manifest>
