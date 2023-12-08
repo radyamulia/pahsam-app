@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "612809798943",
+    "project_id": "pahsam-apps",
+    "storage_bucket": "pahsam-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612809798943:android:85fbad78fec702c08fec2a",
+        "android_client_info": {
+          "package_name": "com.example.pahsamapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoAcmQgXl1m-Epz6eOHt6NEVADR4Cu4Hs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
