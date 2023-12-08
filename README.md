@@ -1,3 +1,8 @@
+- Radya Mulia Panatagama (D121211 038)
+- Muhammad Faturihsan (D121211 043)
+- Ahmad Shafwan Dzaky (D121211 053)
+- Andi Muh. Daffa Yuslim (D121211 067)
+
 # Pahsam App
 ## Aplikasi Pelaporan Tempat Sampah Penuh
 
